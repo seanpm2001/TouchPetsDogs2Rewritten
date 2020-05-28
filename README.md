@@ -22,7 +22,7 @@ Contributers
 
 Currently, the only contributer is SeanPM2001 (myself) I will add more contributers in the future.
 
-1. [seanpm2001](https://github.com/seanpm2001/) - 4 commits (As of May 28th 2020 at 1:41 pm)
+1. [seanpm2001](https://github.com/seanpm2001/) - 25 commits (As of May 28th 2020 at 2:51 pm)
 2. No other contributers at the moment
 
 ---
@@ -49,10 +49,39 @@ The game is currently planned to be written in 3 programming, markup, and markdo
 
 ---
 
+# Version history
+
+---
+
+Concept releases
+-----------
+
+> 1. [Concept release 1: 0.0.0.1](https://github.com/seanpm2001/TouchPetsDogs2Rewritten/tree/V0.0.0.1) [pre-release]
+
+> 2. [Coming soon](https://www.example.com)
+
+Alpha releases
+-----------
+
+> * No Alpha releases have been made yet
+
+Beta releases
+-----------
+
+> * No Beta releases have been made yet
+
+Full releases
+-----------
+
+> * No Full releases have been made yet
+
+---
+
 # About ReadME.md
 
-ReadMe version: 1 (May 28th 2020 at 1:41 pm)
-Description: 
+ReadMe version: 2 (May 28th 2020 at 2:51 pm)
+
+**Description:**
 
 `Explains the project, and its goals.`
 
