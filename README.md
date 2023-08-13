@@ -1,7 +1,7 @@
 
 ***
 
-# Touch Pets Dogs 2
+# Touch Pets Dogs 2 Rewritten
 
 ![TouchPetsDogs2.8.png](/TouchPetsDogs2.8.png)
 
@@ -47,7 +47,7 @@ Translations are done with Google Translate due to limited or no support for the
 
 ## Index
 
-[00.0 - Title](#Touch-Pets-Dogs-2)
+[00.0 - Title](#Touch-Pets-Dogs-2-Rewritten)
 
 > [00.1 - Read this article in a different language](#Read-this-article-in-a-different-language)
 
@@ -119,8 +119,7 @@ It was a game from my early childhood, and I really miss it. It no longer exists
 
 This game will be recreated for the following platforms:
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 * Ubuntu 20.04 LTS (and later LTS versions)
 
@@ -172,2485 +171,1797 @@ Other platforms will be supported by the community. Successful ports will be add
 
 A lot of development is needed for this project, and I can't do it by myself.
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+### Priorities
+
+- Arch Linux
+- Fedora 32
+- Ubuntu 22.04
+- Windows XP (Tablet PC Edition)
+- Mac OS X 10.5
+- iOS 6
+- iOS 15
+- Android 6.0 (x64)
+- Android 13.0 (x64)
+
+Other operating systems and versions are not currently of the highest priority.
+
+### Graphic design
+
+The original game has had the server connection cut for over a decade now (as of 2023, Sunday, August 13th) and I am having difficulty finding enough gameplay footage online to properly work on this project. However, it can still be done, but it won't be exactly the same.
+
+### Public interest
+
+I revived this project on 2023, Sunday, August 13th, after Discord user Harald Krull asked me about if I am continuing this project. I plan on doing so, as long as I can get public support on it. I need more than 1 person interested before I can start pooling more resources towards this project.
+
+#### List of potential people interested
+
+- 0. seanpm2001
+- 1. Harald Krull (since 2023, Sunday, August 13th)
+- 2. [Open a discussion](https://github.com/seanpm2001/TouchPetsDogs2Rewritten/discussions/)
+
+### Programming
+
+The game is written in multiple languages. Most operating system ports are written in Python, web ports are written in HTML, CSS, and JavaScript, MacOS ports are written in Objective-C, and iOS ports are written in Swift. Android support is still in question. I can't do this project alone, and will need more experienced programmers to help. I can do parts of the Python programming, but I am still a student in Python, and will need significant support to create a functional demo. Other languages will also need significant support.
+
+### Main development timeline
+
+- [ ] Get public interest in the project (1 potential interest, 2023, August 13th)
+- [ ] Improve documentation
+- [ ] Start working with scripts
+- [ ] Create 3D graphics
+- - [ ] Recreate some game artwork
+- - [ ] Work on 2D models
+- - [ ] Work on 3D models
+- [ ] Arch Linux
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Fedora 32
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Ubuntu 22.04
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Windows XP (Tablet PC Edition)
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Mac OS X 10.5
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] iOS 6
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] iOS 15
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Android 6.0
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Android 13.0
+- - [ ] Working Demo
+- - [ ] Improve touch support
+- - [ ] Beta testing and bug triage
+- - [ ] Improve functionality (add features)
+- - [ ] Add polishing (optimize, fixing the ltitle details)
+- - [ ] Release
+- - [ ] Continue development
+- [ ] Continue development
+- [ ] Improve security
+- [ ] Create a Snapcraft version
+
+<details><summary>[Click/tap here to expand/collapse individual game goals</summary>
+
+These notes were excessive, and written in a different time. Improvement can be done here.
 
 ### Ubuntu 20.04 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
+- [ ] Port to another operating system
 
+</details>
+
+### Ubuntu 22.04 (x64)
+
+<details><summary>[Click/tap here to expand/collapse this section</summary>
+
+- [ ] Working demo
+- [ ] Working 3D graphics
+- [ ] Game art recreation
+- [ ] Perfect touch support
+- [ ] Begin bug triage
+- [ ] Polish it up
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 16 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 16 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 17 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 17 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 18 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 18 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 19 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 19 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 20 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 20 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 21 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 21 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 22 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 22 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 23 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 23 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 24 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 24 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 25 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 25 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 26 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 26 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 27 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 27 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 28 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 28 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 29 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 29 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 30 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 30 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 31 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 32 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Fedora 33 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Arch Linux 2021.06.01
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows XP (Tablet PC Edition) (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows Vista (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows Vista (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 7 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 7 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 8 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 8 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 8.1 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 8.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 10 (Build 150X-1607, x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 10 (Build 150X-1607, x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 10 (Build 1703-1803, x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 10 (Build 1703-1803, x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 10 (Build 1809-1909, x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 10 (Build 1809-1909, x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Windows 11 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.0 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.1 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.2 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.3 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.4 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.4 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.5 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.5 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.6 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.6 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.7 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Mac OS X 10.7 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.8 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.8 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.9 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.9 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.10 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.10 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.11 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### OS X 10.11 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.12 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.12 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.13 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.13 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.14 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.14 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.15 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 10.16 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 11.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### MacOS 12.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iPhone OS 2 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iPhone OS 3 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 4 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 5 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 6 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 7 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 8 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 9 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 10 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 11 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 12 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 13 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 14 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iOS 15 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iPadOS 13 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iPadOS 14 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### iPadOS 15 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Android 2.3 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Android 3.0 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
-
 - [ ] Port to another operating system
 
 </details>
 
 ### Android 4.0 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 4.1 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 4.4 (x32)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 5.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 5.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 6.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 6.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 7.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 7.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 8.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 8.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 9.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 9.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 10.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 10.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 11.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 11.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 12.0 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### Android 12.1 (x64)
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
 
 ### WHATWG Web browser certified
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Working demo
-
 - [ ] Working 3D graphics
-
 - [ ] Game art recreation
-
 - [ ] Perfect touch support
-
 - [ ] Begin bug triage
-
 - [ ] Polish it up
 
 </details>
@@ -2659,8 +1970,7 @@ A lot of development is needed for this project, and I can't do it by myself.
 
 Once done, they just have to be re-scaled for each system.
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 - [ ] Game art recreation
 
@@ -2686,8 +1996,7 @@ Once done, they just have to be re-scaled for each system.
 
 ### All screenshots
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 ![2.1](/Graphics/Reference/TouchPetsDogs2.1.jpg)
 
@@ -2751,8 +2060,7 @@ Once done, they just have to be re-scaled for each system.
 
 ### The old trailer for Touch Pets Dogs 2
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 ![The trailer has failed to load. A link to the video is below, although inconvenient.](/OldTrailer/Trailer1.mp4)
 
@@ -2816,20 +2124,25 @@ The game is currently planned to be written in 3 programming, markup, and markdo
 
 ***
 
+## Additional documentation
+
+Additional documentation is located [:octocat: `in a separate repository`](https://github.com/seanpm2001/TouchPetsDogs2Rewritten_Docs/)
+
+***
+
 ## File info
 
-ReadMe file version: `4 (Saturday, June 19th 2020 at 3:44 pm)`
+ReadMe file version: `5 (2023, Sunday, August 13th at 4:58 pm PST)`
 
 File type: `Markdown document (*.md)`
 
-Line count (including blank lines and compiler line): `2,985`
+Line count (including blank lines and compiler line): `2,329`
 
 ***
 
 ## README version history
 
-<details>
-<summary>[Click/tap here to expand/collapse this section</summary>
+<details><summary>[Click/tap here to expand/collapse this section</summary>
 
 Version 1 (Thursday, May 28th 2020 at 1:41 pm)
 
@@ -2929,13 +2242,24 @@ Version 4 (Saturday, June 19th 2021 at 3:44 pm)
 
 </details>
 
-Version 5 (Coming soon)
+Version 5 (2023, Sunday, August 13th at 4:58 pm PST)
 
 <details><summary>[Changes (click/tap here to expand/collapse the info for version 5 changes]</summary>
 
-> * None
+> **Note** _Development on this project resumed after a 2 year, 1 month, and 6 day hiatus. I modernized the project, and improved documentation, but will need additional developers to help._
 
-> * No other changes in version 5
+- [x] Updated the title section
+- [x] Added the `Resources needed` section
+- - [x] Added the `Priorities` subsection
+- - [x] Added the `Graphic Design` subsection
+- - [x] Added the `Public Interest` subsection
+- - - [x] Added the `List of potential people interested` sub-subsection
+- - [x] Added the `Programming` subsection
+- - [x] Added the `Main development timeline` subsection
+- [x] Updated the `Individual game goals` section
+- - [x] Added notes about old data structuring
+- - [x] Removed lots of white space (over 700 lines)
+- [ ] No other changes in version 5
 
 </details>
 
@@ -2966,6 +2290,26 @@ Version 8 (Coming soon)
 > * None
 
 > * No other changes in version 8
+
+</details>
+
+Version 9 (Coming soon)
+
+<details><summary>[Changes (click/tap here to expand/collapse the info for version 9 changes]</summary>
+
+> * None
+
+> * No other changes in version 9
+
+</details>
+
+Version 10 (Coming soon)
+
+<details><summary>[Changes (click/tap here to expand/collapse the info for version 10 changes]</summary>
+
+> * None
+
+> * No other changes in version 10
 
 </details>
 
