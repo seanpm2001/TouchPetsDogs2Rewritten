@@ -20,6 +20,12 @@ A recreation of the old iOS game "Touch Pets Dogs 2" by ngmoco. The game has bee
 
 ***
 
+# Original game files
+
+[:octocat: `Check here for version 1.2`](https://github.com/seanpm2001/TouchPetsDogs2Rewritten/releases/tag/E1.2/)
+
+***
+
 ## Read this article in a different language
 
 _Read this description in a different language:_
@@ -47,55 +53,33 @@ Translations are done with Google Translate due to limited or no support for the
 
 ## Index
 
-[00.0 - Title](#Touch-Pets-Dogs-2-Rewritten)
-
-> [00.1 - Read this article in a different language](#Read-this-article-in-a-different-language)
-
-> [00.2 - Index](#Index)
-
-[01.0 - About](#About)
-
-[02.0 - Why the recreation](#Why-the-recreation)
-
-[03.0 - Platforms](#Platforms)
-
-[04.0 - Resources needed](#Resources-needed)
-
-[05.0 - Main goals](#Main-goals)
-
-[06.0 - Featured screenshots](#Featured-screenshots)
-
-> [06.1 - All screenshots](#All-screenshots)
-
-[07.0 - Trailer](#Trailer)
-
-> [07.1 - The old trailer for Touch Pets Dogs 2](#The-old-trailer-for-Touch-Pets-Dogs-2)
-
-[08.0 - Contributors](#Contributors) <!-- To be renamed to Contributing !-->
-
-[09.0 - Languages](#Languages)
-
-> [09.1 - Human spoken languages](#Human-spoken-languages)
-
-> [09.2 - Computer languages](#Computer-languages)
-
-[10.0 - Version history](#Version-history)
-
-> [10.1 - Concept releases](#Concept-releases)
-
-> [10.2 - Alpha releases](#Alpha-releases)
-
-> [10.3 - Beta releases](#Beta-releases)
-
-> [10.4 - Full releases](#Full-releases)
-
-[11.0 - File info](#File-info)
-
-[12.0 - README version history](#README-version-history)
-
-[13.0 - Footer](#Footer)
-
-> [13.1 - EOF](#EOF)
+- [00.0 - Title](#Touch-Pets-Dogs-2-Rewritten)
+- - [00.1 - Read this article in a different language](#Read-this-article-in-a-different-language)
+- - [00.2 - Index](#Index)
+- [01.0 - About](#About)
+- [02.0 - Why the recreation](#Why-the-recreation)
+- [03.0 - Platforms](#Platforms)
+- [04.0 - Resources needed](#Resources-needed)
+- [05.0 - Main goals](#Main-goals)
+- [06.0 - Featured screenshots](#Featured-screenshots)
+- - [06.1 - All screenshots](#All-screenshots)
+- [07.0 - Trailer](#Trailer)
+- - [07.1 - The old trailer for Touch Pets Dogs 2](#The-old-trailer-for-Touch-Pets-Dogs-2)
+- [08.0 - Contributors](#Contributors) <!-- To be renamed to Contributing !-->
+- [09.0 - Languages](#Languages)
+- - [09.1 - Human spoken languages](#Human-spoken-languages)
+- - [09.2 - Computer languages](#Computer-languages)
+- [10.0 - Version history](#Version-history)
+- - [10.1 - Concept releases](#Concept-releases)
+- - [10.2 - Alpha releases](#Alpha-releases)
+- - [10.3 - Beta releases](#Beta-releases)
+- - [10.4 - Full releases](#Full-releases)
+- - [10.5 - Extra/external releases](#Extra-External-releases)
+- [11.0 - Playing](#Playing)
+- [12.0 - File info](#File-info)
+- [13.0 - README version history](#README-version-history)
+- [14.0 - Footer](#Footer)
+- - [14.9 - EOF](#EOF)
 
 To be added: [Contributing](#EOF) [Resources](#EOF) etc.
 
@@ -2106,21 +2090,35 @@ The game is currently planned to be written in 3 programming, markup, and markdo
 
 ## Concept releases
 
-> 1. [Concept release 1: 0.0.0.1](https://github.com/seanpm2001/TouchPetsDogs2Rewritten/tree/V0.0.0.1) [pre-release]
-
-> 2. [Coming soon](https://www.example.com)
+- 1. [:octocat: `Concept release 1: 0.0.0.1`](https://github.com/seanpm2001/TouchPetsDogs2Rewritten/tree/V0.0.0.1/) **[pre-release]**
+- 2. [Coming soon](https://www.example.com)
 
 ## Alpha releases
 
-> * No Alpha releases have been made yet
+- * No Alpha releases have been made yet
 
 ## Beta releases
 
-> * No Beta releases have been made yet
+- * No Beta releases have been made yet
 
 ## Full releases
 
-> * No Full releases have been made yet
+- * No Full releases have been made yet
+
+## Extra/External releases
+
+- [:octocat: `E1.2 (External 1.2)`](https://github.com/seanpm2001/TouchPetsDogs2Rewritten/releases/tag/E1.2/) - Contains IPA data for version 1.2 of the original game Touch Pets Dogs 2
+
+***
+
+## Playing
+
+I currently recommend using Katten to play this
+
+- [`Codeberg link`](https://codeberg.org/knot126/Katten/)
+- [:octocat: `GitHub link`](https://github.com/knot126/Katten/)
+
+Once you get the IPA files, and install Katten, you can play the original game files, albeit not perfectly yet.
 
 ***
 
@@ -2132,11 +2130,9 @@ Additional documentation is located [:octocat: `in a separate repository`](https
 
 ## File info
 
-ReadMe file version: `5 (2023, Sunday, August 13th at 4:58 pm PST)`
-
-File type: `Markdown document (*.md)`
-
-Line count (including blank lines and compiler line): `2,329`
+- ReadMe file version: `6 (2023, Thursday, September 25th at 03:37 pm PST)`
+- File type: `Markdown document (*.md *.mkd *.mdown *.markdown)`
+- Line count (including blank lines and compiler line): `2,351`
 
 ***
 
@@ -2263,13 +2259,19 @@ Version 5 (2023, Sunday, August 13th at 4:58 pm PST)
 
 </details>
 
-Version 6 (Coming soon)
+Version 6 (2025, Thursday, September 25th at 03:37 pm PST)
 
 <details><summary>[Changes (click/tap here to expand/collapse the info for version 6 changes]</summary>
 
-> * None
+> **Note** _Adding information regarding a release of game data files._
 
-> * No other changes in version 6
+- [x] Added the `Original game files` section
+- [x] Added the `Playing` section
+- [x] Updated the `Releases` section
+- [x] Updated the `File info` section
+- [x] Updated the `File history` section
+- - [x] Added a file history entry for version 6
+- [ ] No other changes in version 6
 
 </details>
 
@@ -2310,6 +2312,26 @@ Version 10 (Coming soon)
 > * None
 
 > * No other changes in version 10
+
+</details>
+
+Version 11 (Coming soon)
+
+<details><summary>[Changes (click/tap here to expand/collapse the info for version 10 changes]</summary>
+
+> * None
+
+> * No other changes in version 11
+
+</details>
+
+Version 12 (Coming soon)
+
+<details><summary>[Changes (click/tap here to expand/collapse the info for version 10 changes]</summary>
+
+> * None
+
+> * No other changes in version 12
 
 </details>
 
